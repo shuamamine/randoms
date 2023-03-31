@@ -2,18 +2,18 @@
 int main() 
 {
 int i, j, k;                                                                                                                         
-for(i=1,j=1,k=1; i<=3;)
+for(i=1,j=1,k=1; k<=3;)
 {
 printf("%d%d%d\n",i,j,k);
-k+=1;
-if(k > 3)
+i+=1;
+if(i > 3)
 {
 j+=1;
-k=1;
+i=1;
 }
 if(j > 3)
 {
-i+=1;
+k+=1;
 j=1;
 }
 }
