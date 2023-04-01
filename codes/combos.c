@@ -1,8 +1,8 @@
-#include <stdio.h>                                                                                                                                 
+#include <stdio.h>                                                          
 int main() 
 {
-int i, j, k;                                                                                                                         
-for(i=1,j=1,k=1; k<=3;)
+int i=1,j=1,k=1; 
+while(k<=3)
 {
 printf("%d%d%d\n",i,j,k);
 i++;
@@ -18,4 +18,4 @@ j=1;
 }
 }
 return 0;  
-}  
+}   
