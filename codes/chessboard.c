@@ -32,6 +32,10 @@ int main()
      for (i=1;i<=u&&i<=l;i++){
         printf(" %d",n-i*9);
     }
-}
-    return 0;
-}
+        printf("\nUpward-Right:");
+    if(n%8!=0){
+    for (i=1;i<=u && i<=r;i++){
+       printf("%d ",n-i*7);
+    }
+    }
+    
