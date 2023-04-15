@@ -38,4 +38,16 @@ int main()
        printf("%d ",n-i*7);
     }
     }
-    
+     printf("\nLower-left:");
+  for (i=1;i<=d+1 && i<=l+1;i++){
+        printf("%d ",n+i*7);
+    }
+   printf("\nLower-Right:");
+    if(n%8!=0){
+      for (i=1;i<=d && i<=r;i++) {
+        printf("%d ",n+i*9);
+    }
+   }   
+}
+    return 0;
+}
